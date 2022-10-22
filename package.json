@@ -1,0 +1,25 @@
+{
+  "name": "isa-project",
+  "version": "1.0.0",
+  "description": "An api project to register data in three related tables",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "isaac-david",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "mongoose": "^6.6.6",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.8.0"
+  }
+}
