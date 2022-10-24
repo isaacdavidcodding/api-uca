@@ -4,13 +4,13 @@
   "description": "An api project to register data in three related tables",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon",
+    "start": "nodemon --inspect ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "isaac-david",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.0",
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.20.1",
     "consign": "^0.1.6",
     "cors": "^2.8.5",
